@@ -15,7 +15,7 @@ const Header = () => {
 
   const headerRef = useRef<HTMLElement>(null);
   const [isSticky, setIsSticky] = useState(false)
-
+  const [open, setOpen] = useState<boolean>(false)
 
 
   useEffect(() => {
@@ -108,13 +108,13 @@ const Header = () => {
             </Link>
           </div>
           <div className="lg:hidden">
-            <button className="border-2 p-2 rounded">
+            <button onClick={()=>setOpen(true)} className="border-2 p-2 rounded">
               <CiMenuBurger size={25} color="#bf6335" />
             </button>
           </div>
         </nav>
       </header>
-      {/* <Drawer /> */}
+      <Drawer handleClose={()=>setOpen(false)} open={open}/>
     </>
   );
 };

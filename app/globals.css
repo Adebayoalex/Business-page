@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.open{
+  left: 0%;
+}
+.close{
+  left: 120%;
+}
