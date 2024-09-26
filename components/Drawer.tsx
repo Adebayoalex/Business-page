@@ -15,14 +15,12 @@ const Drawer = ({open, handleClose}:{open:boolean, handleClose:()=>void}) => {
       drawer.current?.classList.remove('close')
     }else{
       drawer.current?.classList.remove('open')
-      drawer.current?.classList.add('close')
-
     }
   },[open])
 
 
   return (
-    <aside ref={drawer} className="fixed w-full z-30 overflow-hidden h-full top-0 text-white bg-[#bf6335] transition-all duration-500 ease-in-out">
+    <aside ref={drawer} className="fixed w-full z-30 -left-[120%] overflow-hidden h-full top-0 text-white bg-[#bf6335] transition-all duration-500 ease-in-out">
       <div className="px-4 mt-5">
         <div className="mb-5">
           <button onClick={handleClose}>

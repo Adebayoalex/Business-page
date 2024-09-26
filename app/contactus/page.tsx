@@ -5,8 +5,8 @@ import React from "react";
 function page() {
   return (
     <div>
-            <SmallHero type="contact" heading="Reach us on:" writeup=""/>
-      <section className="lg:flex p-10">
+      <SmallHero type="contact" heading="Reach us on:" writeup=""/>
+      <section className="lg:flex p-7 md:p-10">
         <div className="basis-1/2 flex items-center">
           
             <iframe
@@ -18,7 +18,7 @@ function page() {
       
         </div>
 
-        <div className="basis-1/2 p-5 md:p-16">
+        <div className="basis-1/2 mt-10 lg:mt-0 md:p-16">
           <div className="items-center drop-shadow">
             <h3 className="underline underline-offset-4"> Get in touch</h3>
           </div>

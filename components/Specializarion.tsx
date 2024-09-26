@@ -45,10 +45,10 @@ const Specializations = () => {
   return (
     <div className="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-12">
+        <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold text-gray-900 text-center mb-6 md:mb-12">
           Our Specializations
         </h2>
-        <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
+        <p className="text-lg md:text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
           We specialize in evaluating programs across various sectors:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

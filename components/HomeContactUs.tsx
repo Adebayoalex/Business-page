@@ -8,7 +8,7 @@ function HomeContactUs() {
   return (
     <section className="bg-[url('../asset/image/image2.jpg')] bg-no-repeat bg-cover bg-fixed">
       <div className='lg:flex bg-black/90 md:py-10'>
-      <div className='basis-1/2 text-white p-5 md:p-16'>
+      <div className='basis-1/2 text-white p-6 md:p-16'>
         <h3 className='font-bold text-2xl md:text-3xl lg:text-4xl my-4'>Experience The Evolution Of Your Business</h3>
         <p>
           There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look
@@ -31,7 +31,7 @@ function HomeContactUs() {
           </Link>
         </div>
       </div>
-      <div  className='basis-1/2 p-5 md:p-16'>
+      <div  className='basis-1/2 p-6 md:p-16'>
        
         <div className="items-center drop-shadow text-white">
           <h3 className="underline underline-offset-4"> Get in touch</h3>

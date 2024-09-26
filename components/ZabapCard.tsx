@@ -6,7 +6,7 @@ import image1 from "@/asset/image/image1.jpg";
 
 const ZabapCard = () => {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 py-10 px-4 md:px-8 lg:px-16">
+    <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 py-10 px-6 md:px-10 lg:px-16">
       {/* Image Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* First Image with Experience Info */}

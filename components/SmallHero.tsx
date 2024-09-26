@@ -5,12 +5,12 @@ import { IoMailOutline, IoPhonePortraitOutline } from 'react-icons/io5'
 function SmallHero({type, heading, writeup}:{type:string, heading:string, writeup:string}) {
   return (
     <section className="bg-[url('../asset/image/banner1.jpg')] h-[350px] md:h-[500px] bg-center bg-no-repeat bg-cover">
-      <div className='bg-black/70 h-full w-full flex items-center px-16'>
+      <div className='bg-black/70 h-full w-full flex items-center px-6 pt-10 md:px-12 lg:px-16'>
       {
         type === 'contact' ?
         
         <div>
-            <h2 className='text-white font-bold text-5xl'>{heading}</h2>
+            <h2 className='text-white font-bold text-2xl md:text-3xl lg:text-5xl'>{heading}</h2>
          
             <div className='mt-5 text-white'>
           <Link href='tel:+2349127572618' className='flex items-center space-x-'>
@@ -32,7 +32,7 @@ function SmallHero({type, heading, writeup}:{type:string, heading:string, writeu
         </div>
             :
         <div>
-        <h2 className='text-white font-bold text-5xl'>{heading}</h2>
+        <h2 className='text-white font-bold text-2xl md:text-3xl lg:text-5xl'>{heading}</h2>
         <p className='text-white text-lg'>{writeup}</p>
       </div>
 

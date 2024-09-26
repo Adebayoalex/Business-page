@@ -7,7 +7,7 @@ function page() {
   return (
     <div>
         <SmallHero type="service" heading="Our core service includes:" writeup=""/>
-        <section className='p-14'>
+        <section className='p-6 md:p-14'>
            
             <CardGrid/>
 

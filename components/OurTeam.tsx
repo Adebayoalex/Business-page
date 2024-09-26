@@ -7,7 +7,7 @@ import ceo from "../asset/image/image4.jpg";
 function OurTeam() {
   const teams = [1, 2, 3, 4];
   return (
-    <section className="p-4 md:p-10 text-center mt-10">
+    <section className="p-6 md:p-16 text-center mt-10">
       <div className="items-center drop-shadow text-orange-950">
         <h3 className="underline underline-offset-4">Our Team</h3>
       </div>
@@ -16,7 +16,7 @@ function OurTeam() {
         Meet our team of proffessionals
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:p-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:p-10">
         {teams.map((item) => (
           <div className="relative bg-white shadow-md rounded overflow-hidden transition-transform duration-500 hover:-translate-y-2 group">
             {/* Team member image */}
