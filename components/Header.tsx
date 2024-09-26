@@ -62,7 +62,9 @@ const Header = () => {
 
         <nav className='flex justify-between bg-white px-5 md:px-20 py-5 shadow-lg items-center w-full'>
           <div className="basis-1/4">
-            <Image src={logo} alt="logo" width={110} />
+            <Link href="/">
+              <Image src={logo} alt="logo" width={110} />
+            </Link>
           </div>
           <div className="basis-2/4 space-x-12 font-medium hidden lg:flex">
             <div>
