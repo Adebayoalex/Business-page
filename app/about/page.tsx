@@ -76,7 +76,7 @@ function page() {
           </div>
         </div>
       </section>
-      <OurTeam />
+      {/* <OurTeam /> */}
     </div>
   );
 }

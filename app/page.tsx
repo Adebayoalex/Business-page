@@ -12,7 +12,7 @@ export default function Home() {
       <BigHero/>
       <ZabapCard/>
       <HomeContactUs/>
-      <OurTeam/>
+      {/* <OurTeam/> */}
       <LeadClient/>
     </div>
   );
