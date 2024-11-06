@@ -19,7 +19,7 @@ const ZabapCard = () => {
             />
           </div>
           <div className="bg-[#bf6335] text-white p-4 rounded-b-lg text-center">
-            <p className="font-extrabold text-4xl md:text-5xl lg:text-6xl">20+ </p>
+            <p className="font-extrabold text-4xl md:text-5xl lg:text-6xl">15+ </p>
             <p className="font-bold text-lg md:text-xl">Years Experience</p>
           </div>
         </div>
@@ -42,7 +42,7 @@ const ZabapCard = () => {
         <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl my-4">
           Company Overview
         </h2>
-        <p className="">
+        <p className="text-base text-justify">
           We are a private research firm dedicated to providing comprehensive survey services for government entities, non-governmental organizations (NGOs), and the public sector. Our expertise lies in evaluating various social interventions, focusing on critical areas such as health, education, energy, water, sanitation, and hygiene (WASH), Politics, livelihood, and more.
         </p>
 

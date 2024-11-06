@@ -5,6 +5,9 @@ import psi from '@/asset/image/psi.png'
 import rti from '@/asset/image/rti.png'
 import kantar from '@/asset/image/kantar.png'
 import sfh from '@/asset/image/sfh.png'
+import chart1 from '@/asset/image/chart1.jpeg'
+import chart2 from '@/asset/image/chart2.jpeg'
+
 
 
 
@@ -40,24 +43,31 @@ function LeadClient() {
 
 
   return (
+    <>
+        {/* delete later */}
+
+    <div className='my-24'>
+        <div className='md:flex p-4 justify-center md:space-x-8'>
+        <Image src={chart1} alt='' className='my-3'/>
+        <Image src={chart2} alt='' className='my-3'/>
+        </div>
+        <div className='p-4 md:w-2/3 m-auto mt-5 md:mt-10'>
+            <p className='text-center'>
+                ZaBap Consulting’s team consists of more than 10 experts in research, technology, monitoring and evaluation, and international development. We have survey teams in all 36 States and the FCT in Nigeria, collaborating with other agencies across Africa.
+            </p>  
+        </div>
+    </div>
+
     <section className='mt-6'>
         <div className="items-center drop-shadow text-orange-950">
-          <h3 className="underline text-center underline-offset-4">Our portfolie</h3>
+          <h3 className="underline text-center underline-offset-4">Our portfolio</h3>
         </div>
-        <h2 className='font-bold text-2xl md:text-3xl lg:text-4xl my-4 text-center'>Lead consultant’s client experience at Kantar</h2>
-
-   
-   
-    
-
-
-
-
-
-
+        <div className='md:w-8/12 m-auto'>
+            <h2 className='font-bold text-2xl md:text-3xl lg:text-4xl my-4 md:text-center p-4'>Lead consultant’s client experience at Kantar and Verian</h2>
+        </div>
 
         <div className="w-full inline-flex bg-gray-100 flex-nowrap py-2 overflow-hidden">
-    <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+            <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
         <li>
             <Image src={kantar} alt='' className='w-16'/>
         </li>
@@ -111,16 +121,9 @@ function LeadClient() {
             <Image src={ipa} alt="" className='w-16'/>
         </li>
     </ul>                
-</div>
-
-
-
-
-
-
-
-
+    </div>
     </section>
+    </>
   )
 }
 

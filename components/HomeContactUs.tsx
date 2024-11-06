@@ -11,13 +11,13 @@ function HomeContactUs() {
       <div className='basis-1/2 text-white p-6 md:p-16'>
         <h3 className='font-bold text-2xl md:text-3xl lg:text-4xl my-4'>Experience The Evolution Of Your Business</h3>
         <p>
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look
+        Uncovering the stories behind the numbers to transform the world 
         </p>
         <div className='mt-5'>
           <Link href='' className='flex items-center space-x-2'>
           <IoPhonePortraitOutline size={20}/>
             <div>
-              <p>0987654321</p>
+              <p>+234 912 7572 618</p>
             </div>
           </Link>
         </div>
@@ -26,7 +26,7 @@ function HomeContactUs() {
           <Link href='' className='flex items-center space-x-2'>
           <IoMailOutline size={20}/>
             <div>
-              <p>charlesayom@gmail.com</p>
+              <p>info@zabapconsulting.com</p>
             </div>
           </Link>
         </div>
