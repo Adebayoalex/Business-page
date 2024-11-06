@@ -47,9 +47,9 @@ function LeadClient() {
         {/* delete later */}
 
     <div className='my-24'>
-        <div className='md:flex p-4 justify-center md:space-x-8'>
-        <Image src={chart1} alt='' className='my-3'/>
-        <Image src={chart2} alt='' className='my-3'/>
+        <div className='md:flex justify-center md:space-x-8'>
+            <Image src={chart1} alt='' className='my-3 mx-auto md:mx-0'/>
+            <Image src={chart2} alt='' className='my-3 mx-auto md:mx-0'/>
         </div>
         <div className='p-4 md:w-2/3 m-auto mt-5 md:mt-10'>
             <p className='text-center'>
@@ -63,7 +63,7 @@ function LeadClient() {
           <h3 className="underline text-center underline-offset-4">Our portfolio</h3>
         </div>
         <div className='md:w-8/12 m-auto'>
-            <h2 className='font-bold text-2xl md:text-3xl lg:text-4xl my-4 md:text-center p-4'>Lead consultant’s client experience at Kantar and Verian</h2>
+            <h2 className='font-bold text-2xl md:text-3xl lg:text-4xl my-4 text-center p-4'>Lead consultant’s client experience at Kantar and Verian</h2>
         </div>
 
         <div className="w-full inline-flex bg-gray-100 flex-nowrap py-2 overflow-hidden">
